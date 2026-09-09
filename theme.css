@@ -1,0 +1,151 @@
+:root {
+  --bg: #f4f2ec;
+  --card: #ffffff;
+  --text: #17202a;
+  --muted: #586575;
+  --line: #d5d9de;
+  --accent: #2457d6;
+  --accent-soft: #e6edff;
+  --warm: #f0c96b;
+}
+
+body {
+  background: linear-gradient(135deg, #f7f5ef 0%, var(--bg) 65%, #edf2ff 100%);
+  color: var(--text);
+}
+
+.button,
+.control[aria-pressed="true"] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.button:hover {
+  background: #1945b4;
+}
+
+.hero h1 > span,
+.about h2 span,
+.logo span {
+  color: var(--accent);
+}
+
+.project:not(.featured) {
+  background: var(--card);
+  color: var(--text);
+}
+
+.project:nth-child(2) { background: #edf3ff; }
+.project:nth-child(3) { background: #fff4d9; }
+.project:nth-child(4) { background: #e8edff; }
+.project:nth-child(5) { background: #e4f3ed; }
+.project:nth-child(6) { background: #f7e8dc; }
+
+.project:not(.featured) .card-top,
+.project:not(.featured) > p,
+.project:not(.featured) details p {
+  color: var(--muted);
+}
+
+.project-button {
+  box-shadow: 4px 4px 0 var(--text);
+}
+
+.contact {
+  background: #17202a;
+  box-shadow: 10px 10px 0 var(--warm);
+}
+
+.profile-panel {
+  background: #17202a;
+  box-shadow: 10px 10px 0 var(--accent);
+}
+
+.profile-panel h2 span,
+.profile-panel .eyebrow,
+.availability span {
+  color: #f4d36f;
+}
+
+.theme-control {
+  background: transparent;
+  color: var(--text);
+  border-color: var(--text);
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #10151c;
+  --card: #1b2530;
+  --text: #edf2f7;
+  --muted: #aab7c4;
+  --line: #344352;
+  --accent: #78a7ff;
+  --accent-soft: #22344f;
+  --warm: #d8ad56;
+}
+
+:root[data-theme="dark"] body {
+  background: linear-gradient(135deg, #0d1218 0%, #10151c 62%, #152235 100%);
+}
+
+:root[data-theme="dark"] header {
+  border-color: var(--line);
+}
+
+:root[data-theme="dark"] .hero h1 > span,
+:root[data-theme="dark"] .about h2 span,
+:root[data-theme="dark"] .logo span {
+  color: var(--accent);
+}
+
+:root[data-theme="dark"] .button,
+:root[data-theme="dark"] .control[aria-pressed="true"] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #0d1218;
+}
+
+:root[data-theme="dark"] .button:hover {
+  background: #9bc0ff;
+}
+
+:root[data-theme="dark"] .project:not(.featured) {
+  background: var(--card);
+  color: var(--text);
+}
+
+:root[data-theme="dark"] .project:nth-child(2) { background: #1b2b40; }
+:root[data-theme="dark"] .project:nth-child(3) { background: #3a3020; }
+:root[data-theme="dark"] .project:nth-child(4) { background: #242c40; }
+:root[data-theme="dark"] .project:nth-child(5) { background: #1d3630; }
+:root[data-theme="dark"] .project:nth-child(6) { background: #3b2d27; }
+
+:root[data-theme="dark"] .project:not(.featured) .card-top,
+:root[data-theme="dark"] .project:not(.featured) > p,
+:root[data-theme="dark"] .project:not(.featured) details p {
+  color: var(--muted);
+}
+
+:root[data-theme="dark"] .contact {
+  background: #1b2530;
+  box-shadow: 10px 10px 0 var(--warm);
+}
+
+:root[data-theme="dark"] .profile-panel {
+  background: #0d1218;
+  box-shadow: 10px 10px 0 var(--accent);
+}
+
+:root[data-theme="dark"] .profile-panel h2 span,
+:root[data-theme="dark"] .profile-panel .eyebrow,
+:root[data-theme="dark"] .availability span {
+  color: #f4d36f;
+}
+
+:root[data-theme="dark"] .theme-control {
+  background: transparent;
+  color: var(--text);
+  border-color: var(--text);
+}
