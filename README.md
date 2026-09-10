@@ -1,10 +1,10 @@
-# Chin Huei Qi — Portfolio
+# Portfolio
 
 A colourful HTML, CSS and JavaScript portfolio. No npm installation or build step is needed.
 
 ## Open in VS Code
 1. Extract this ZIP.
-2. In VS Code, select File > Open Folder and choose Chin_Huei_Qi_Portfolio.
+2. In VS Code, select File > Open Folder and choose Portfolio.
 3. Open index.html to edit the page content.
 
 ## Run
